@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var color_1 = require("./my-game/sample/color");
+exports.Color = color_1.Color;
+var equipment_1 = require("./my-game/sample/equipment");
+exports.Equipment = equipment_1.Equipment;
+exports.unionToEquipment = equipment_1.unionToEquipment;
+exports.unionListToEquipment = equipment_1.unionListToEquipment;
+var vec3_1 = require("./my-game/sample/vec3");
+exports.Vec3 = vec3_1.Vec3;
+var weapon_1 = require("./my-game/sample/weapon");
+exports.Weapon = weapon_1.Weapon;
+var monster_1 = require("./my-game/sample/monster");
+exports.Monster = monster_1.Monster;
