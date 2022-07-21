@@ -10,6 +10,8 @@ var monster = MyGame.Monster.getRootAsMonster(buf);
 
 var hp = monster.hp();
 var pos = monster.pos();
-var weapons = monster.weapons();
+var name = monster.name();
 
-console.log(weapons);
+var weapons = monster.weapons(1);
+
+console.log(weapons.name());
